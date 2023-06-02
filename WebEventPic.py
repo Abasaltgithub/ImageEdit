@@ -6,7 +6,7 @@ image_dir = "/Users/abasaltbahrami/Downloads/events_website"
 
 # Loop through all files in the directory
 for filename in os.listdir(image_dir):
-    if filename.endswith(".jpg") or filename.endswith(".png"):
+    if filename.endswith(".jpeg") or filename.endswith(".png"):
 
         # Open the image using Pillow
         img = Image.open(os.path.join(image_dir, filename))
