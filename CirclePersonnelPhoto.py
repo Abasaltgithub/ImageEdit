@@ -2,7 +2,7 @@ import os
 from PIL import Image, ImageDraw, ImageOps
 
 # Set the directory path where the images are located
-directory = "/Users/abasaltbahrami/Downloads/Magnet pics/"
+directory = "/Users/abasaltbahrami/Downloads/QubiT"
 
 # Loop through all files in the directory
 for filename in os.listdir(directory):
