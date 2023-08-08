@@ -9,7 +9,7 @@ def sharpen_image(input_path, output_folder, sharpen_factor=2):
 
         # Apply the sharpening filter
         sharpened_image = input_image.filter(
-            ImageFilter.UnsharpMask(radius=2, percent=1000))
+            ImageFilter.UnsharpMask(radius=2, percent=500))
 
         # Create the output directory if it doesn't exist
         if not os.path.exists(output_folder):
@@ -36,7 +36,7 @@ def sharpen_image(input_path, output_folder, sharpen_factor=2):
 
 
 if __name__ == "__main__":
-    input_folder = "/Users/abasaltbahrami/My Drive/InCor - Brazil/Microscope_Images/EntoCells"
+    input_folder = "/Users/abasaltbahrami/My Drive/InCor - Brazil/CellMigration"
     output_folder = input_folder
 
     # Get a list of all image files in the input folder
