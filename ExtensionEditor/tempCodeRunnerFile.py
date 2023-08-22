@@ -20,8 +20,8 @@ def convert_and_rename(source_folder, destination_folder):
 
 
 if __name__ == "__main__":
-    heic_input_directory = "/Users/abasaltbahrami/My Drive/UCLA/Conferences/SaoPaulo_2023/Receipts/Visa_Accomidation"
-    jpeg_output_directory = "/Users/abasaltbahrami/My Drive/UCLA/Conferences/SaoPaulo_2023/Receipts/Visa_Accomidation"
+    heic_input_directory = "/Users/abasaltbahrami/Downloads/Receipts/heic_images"
+    jpeg_output_directory = "/Users/abasaltbahrami/Downloads/Receipts/jpeg_images"
 
     convert_and_rename(heic_input_directory, jpeg_output_directory)
     print("Conversion and renaming complete.")
